@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4EC6985E2251C3C84D562C2E /* libPods-LadderApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBFB6E1FE8AF877F3E07A715 /* libPods-LadderApp.a */; };
 		AA48FA3D1C606AE400AB8B39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA48FA3C1C606AE400AB8B39 /* AppDelegate.swift */; };
 		AA48FA3F1C606AE400AB8B39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA48FA3E1C606AE400AB8B39 /* ViewController.swift */; };
 		AA48FA421C606AE400AB8B39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA48FA401C606AE400AB8B39 /* Main.storyboard */; };
@@ -15,6 +14,7 @@
 		AA48FA471C606AE400AB8B39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA48FA451C606AE400AB8B39 /* LaunchScreen.storyboard */; };
 		AA48FA521C606AE400AB8B39 /* LadderAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA48FA511C606AE400AB8B39 /* LadderAppTests.swift */; };
 		AA48FA5D1C606AE400AB8B39 /* LadderAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA48FA5C1C606AE400AB8B39 /* LadderAppUITests.swift */; };
+		D48E1047A1981D1A6EA7593A /* Pods_LadderApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A423097DB6F590F132B66FB /* Pods_LadderApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A423097DB6F590F132B66FB /* Pods_LadderApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LadderApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		952626C3FCB0F63FF21D7997 /* Pods-LadderApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LadderApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-LadderApp/Pods-LadderApp.release.xcconfig"; sourceTree = "<group>"; };
 		AA48FA391C606AE400AB8B39 /* LadderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LadderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA48FA3C1C606AE400AB8B39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +51,6 @@
 		AA48FA5C1C606AE400AB8B39 /* LadderAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LadderAppUITests.swift; sourceTree = "<group>"; };
 		AA48FA5E1C606AE400AB8B39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB77A227BE768B72FF112375 /* Pods-LadderApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LadderApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LadderApp/Pods-LadderApp.debug.xcconfig"; sourceTree = "<group>"; };
-		EBFB6E1FE8AF877F3E07A715 /* libPods-LadderApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LadderApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EC6985E2251C3C84D562C2E /* libPods-LadderApp.a in Frameworks */,
+				D48E1047A1981D1A6EA7593A /* Pods_LadderApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 		755FDDF0DB34ED8925F487B3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EBFB6E1FE8AF877F3E07A715 /* libPods-LadderApp.a */,
+				1A423097DB6F590F132B66FB /* Pods_LadderApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -474,6 +474,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LadderApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ladder.LadderApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -486,6 +487,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LadderApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ladder.LadderApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
