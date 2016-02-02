@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA48FA3D1C606AE400AB8B39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA48FA3C1C606AE400AB8B39 /* AppDelegate.swift */; };
+		AA48FA3F1C606AE400AB8B39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA48FA3E1C606AE400AB8B39 /* ViewController.swift */; };
+		AA48FA421C606AE400AB8B39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA48FA401C606AE400AB8B39 /* Main.storyboard */; };
+		AA48FA441C606AE400AB8B39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA48FA431C606AE400AB8B39 /* Assets.xcassets */; };
+		AA48FA471C606AE400AB8B39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA48FA451C606AE400AB8B39 /* LaunchScreen.storyboard */; };
+		AA48FA521C606AE400AB8B39 /* LadderAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA48FA511C606AE400AB8B39 /* LadderAppTests.swift */; };
+		AA48FA5D1C606AE400AB8B39 /* LadderAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA48FA5C1C606AE400AB8B39 /* LadderAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA48FA4E1C606AE400AB8B39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA48FA311C606AE300AB8B39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA48FA381C606AE400AB8B39;
+			remoteInfo = LadderApp;
+		};
+		AA48FA591C606AE400AB8B39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA48FA311C606AE300AB8B39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA48FA381C606AE400AB8B39;
+			remoteInfo = LadderApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA48FA391C606AE400AB8B39 /* LadderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LadderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA48FA3C1C606AE400AB8B39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA48FA3E1C606AE400AB8B39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA48FA411C606AE400AB8B39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA48FA431C606AE400AB8B39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA48FA461C606AE400AB8B39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA48FA481C606AE400AB8B39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA48FA4D1C606AE400AB8B39 /* LadderAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LadderAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA48FA511C606AE400AB8B39 /* LadderAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LadderAppTests.swift; sourceTree = "<group>"; };
+		AA48FA531C606AE400AB8B39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA48FA581C606AE400AB8B39 /* LadderAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LadderAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA48FA5C1C606AE400AB8B39 /* LadderAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LadderAppUITests.swift; sourceTree = "<group>"; };
+		AA48FA5E1C606AE400AB8B39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA48FA361C606AE400AB8B39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA48FA4A1C606AE400AB8B39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA48FA551C606AE400AB8B39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA48FA301C606AE300AB8B39 = {
+			isa = PBXGroup;
+			children = (
+				AA48FA3B1C606AE400AB8B39 /* LadderApp */,
+				AA48FA501C606AE400AB8B39 /* LadderAppTests */,
+				AA48FA5B1C606AE400AB8B39 /* LadderAppUITests */,
+				AA48FA3A1C606AE400AB8B39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA48FA3A1C606AE400AB8B39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA48FA391C606AE400AB8B39 /* LadderApp.app */,
+				AA48FA4D1C606AE400AB8B39 /* LadderAppTests.xctest */,
+				AA48FA581C606AE400AB8B39 /* LadderAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA48FA3B1C606AE400AB8B39 /* LadderApp */ = {
+			isa = PBXGroup;
+			children = (
+				AA48FA3C1C606AE400AB8B39 /* AppDelegate.swift */,
+				AA48FA3E1C606AE400AB8B39 /* ViewController.swift */,
+				AA48FA401C606AE400AB8B39 /* Main.storyboard */,
+				AA48FA431C606AE400AB8B39 /* Assets.xcassets */,
+				AA48FA451C606AE400AB8B39 /* LaunchScreen.storyboard */,
+				AA48FA481C606AE400AB8B39 /* Info.plist */,
+			);
+			path = LadderApp;
+			sourceTree = "<group>";
+		};
+		AA48FA501C606AE400AB8B39 /* LadderAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA48FA511C606AE400AB8B39 /* LadderAppTests.swift */,
+				AA48FA531C606AE400AB8B39 /* Info.plist */,
+			);
+			path = LadderAppTests;
+			sourceTree = "<group>";
+		};
+		AA48FA5B1C606AE400AB8B39 /* LadderAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA48FA5C1C606AE400AB8B39 /* LadderAppUITests.swift */,
+				AA48FA5E1C606AE400AB8B39 /* Info.plist */,
+			);
+			path = LadderAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA48FA381C606AE400AB8B39 /* LadderApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA48FA611C606AE400AB8B39 /* Build configuration list for PBXNativeTarget "LadderApp" */;
+			buildPhases = (
+				AA48FA351C606AE400AB8B39 /* Sources */,
+				AA48FA361C606AE400AB8B39 /* Frameworks */,
+				AA48FA371C606AE400AB8B39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LadderApp;
+			productName = LadderApp;
+			productReference = AA48FA391C606AE400AB8B39 /* LadderApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA48FA4C1C606AE400AB8B39 /* LadderAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA48FA641C606AE400AB8B39 /* Build configuration list for PBXNativeTarget "LadderAppTests" */;
+			buildPhases = (
+				AA48FA491C606AE400AB8B39 /* Sources */,
+				AA48FA4A1C606AE400AB8B39 /* Frameworks */,
+				AA48FA4B1C606AE400AB8B39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA48FA4F1C606AE400AB8B39 /* PBXTargetDependency */,
+			);
+			name = LadderAppTests;
+			productName = LadderAppTests;
+			productReference = AA48FA4D1C606AE400AB8B39 /* LadderAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA48FA571C606AE400AB8B39 /* LadderAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA48FA671C606AE400AB8B39 /* Build configuration list for PBXNativeTarget "LadderAppUITests" */;
+			buildPhases = (
+				AA48FA541C606AE400AB8B39 /* Sources */,
+				AA48FA551C606AE400AB8B39 /* Frameworks */,
+				AA48FA561C606AE400AB8B39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA48FA5A1C606AE400AB8B39 /* PBXTargetDependency */,
+			);
+			name = LadderAppUITests;
+			productName = LadderAppUITests;
+			productReference = AA48FA581C606AE400AB8B39 /* LadderAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA48FA311C606AE300AB8B39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Ladder;
+				TargetAttributes = {
+					AA48FA381C606AE400AB8B39 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					AA48FA4C1C606AE400AB8B39 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AA48FA381C606AE400AB8B39;
+					};
+					AA48FA571C606AE400AB8B39 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AA48FA381C606AE400AB8B39;
+					};
+				};
+			};
+			buildConfigurationList = AA48FA341C606AE400AB8B39 /* Build configuration list for PBXProject "LadderApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA48FA301C606AE300AB8B39;
+			productRefGroup = AA48FA3A1C606AE400AB8B39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA48FA381C606AE400AB8B39 /* LadderApp */,
+				AA48FA4C1C606AE400AB8B39 /* LadderAppTests */,
+				AA48FA571C606AE400AB8B39 /* LadderAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA48FA371C606AE400AB8B39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA48FA471C606AE400AB8B39 /* LaunchScreen.storyboard in Resources */,
+				AA48FA441C606AE400AB8B39 /* Assets.xcassets in Resources */,
+				AA48FA421C606AE400AB8B39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA48FA4B1C606AE400AB8B39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA48FA561C606AE400AB8B39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA48FA351C606AE400AB8B39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA48FA3F1C606AE400AB8B39 /* ViewController.swift in Sources */,
+				AA48FA3D1C606AE400AB8B39 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA48FA491C606AE400AB8B39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA48FA521C606AE400AB8B39 /* LadderAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA48FA541C606AE400AB8B39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA48FA5D1C606AE400AB8B39 /* LadderAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA48FA4F1C606AE400AB8B39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA48FA381C606AE400AB8B39 /* LadderApp */;
+			targetProxy = AA48FA4E1C606AE400AB8B39 /* PBXContainerItemProxy */;
+		};
+		AA48FA5A1C606AE400AB8B39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA48FA381C606AE400AB8B39 /* LadderApp */;
+			targetProxy = AA48FA591C606AE400AB8B39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA48FA401C606AE400AB8B39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA48FA411C606AE400AB8B39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA48FA451C606AE400AB8B39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA48FA461C606AE400AB8B39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA48FA5F1C606AE400AB8B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA48FA601C606AE400AB8B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA48FA621C606AE400AB8B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LadderApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ladder.LadderApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA48FA631C606AE400AB8B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LadderApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ladder.LadderApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA48FA651C606AE400AB8B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LadderAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ladder.LadderAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LadderApp.app/LadderApp";
+			};
+			name = Debug;
+		};
+		AA48FA661C606AE400AB8B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LadderAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ladder.LadderAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LadderApp.app/LadderApp";
+			};
+			name = Release;
+		};
+		AA48FA681C606AE400AB8B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LadderAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ladder.LadderAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LadderApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AA48FA691C606AE400AB8B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LadderAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ladder.LadderAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LadderApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA48FA341C606AE400AB8B39 /* Build configuration list for PBXProject "LadderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA48FA5F1C606AE400AB8B39 /* Debug */,
+				AA48FA601C606AE400AB8B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA48FA611C606AE400AB8B39 /* Build configuration list for PBXNativeTarget "LadderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA48FA621C606AE400AB8B39 /* Debug */,
+				AA48FA631C606AE400AB8B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA48FA641C606AE400AB8B39 /* Build configuration list for PBXNativeTarget "LadderAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA48FA651C606AE400AB8B39 /* Debug */,
+				AA48FA661C606AE400AB8B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA48FA671C606AE400AB8B39 /* Build configuration list for PBXNativeTarget "LadderAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA48FA681C606AE400AB8B39 /* Debug */,
+				AA48FA691C606AE400AB8B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA48FA311C606AE300AB8B39 /* Project object */;
+}
