@@ -15,6 +15,8 @@
 		AA48FA521C606AE400AB8B39 /* LadderAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA48FA511C606AE400AB8B39 /* LadderAppTests.swift */; };
 		AA48FA5D1C606AE400AB8B39 /* LadderAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA48FA5C1C606AE400AB8B39 /* LadderAppUITests.swift */; };
 		D48E1047A1981D1A6EA7593A /* Pods_LadderApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A423097DB6F590F132B66FB /* Pods_LadderApp.framework */; };
+		EDCE59B61C6ACB09002E24D1 /* LASocialCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCE59B51C6ACB09002E24D1 /* LASocialCircle.swift */; };
+		EDDE874E1C6089E300284DD4 /* LAUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDE874D1C6089E300284DD4 /* LAUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		AA48FA5C1C606AE400AB8B39 /* LadderAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LadderAppUITests.swift; sourceTree = "<group>"; };
 		AA48FA5E1C606AE400AB8B39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB77A227BE768B72FF112375 /* Pods-LadderApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LadderApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LadderApp/Pods-LadderApp.debug.xcconfig"; sourceTree = "<group>"; };
+		EDCE59B51C6ACB09002E24D1 /* LASocialCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LASocialCircle.swift; sourceTree = "<group>"; };
+		EDDE874D1C6089E300284DD4 /* LAUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LAUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,7 @@
 		AA48FA3B1C606AE400AB8B39 /* LadderApp */ = {
 			isa = PBXGroup;
 			children = (
+				EDDE874C1C6089E300284DD4 /* Models */,
 				AA48FA3C1C606AE400AB8B39 /* AppDelegate.swift */,
 				AA48FA3E1C606AE400AB8B39 /* ViewController.swift */,
 				AA48FA401C606AE400AB8B39 /* Main.storyboard */,
@@ -147,6 +152,15 @@
 				AA48FA5E1C606AE400AB8B39 /* Info.plist */,
 			);
 			path = LadderAppUITests;
+			sourceTree = "<group>";
+		};
+		EDDE874C1C6089E300284DD4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EDDE874D1C6089E300284DD4 /* LAUser.swift */,
+				EDCE59B51C6ACB09002E24D1 /* LASocialCircle.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -332,6 +346,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA48FA3F1C606AE400AB8B39 /* ViewController.swift in Sources */,
+				EDCE59B61C6ACB09002E24D1 /* LASocialCircle.swift in Sources */,
+				EDDE874E1C6089E300284DD4 /* LAUser.swift in Sources */,
 				AA48FA3D1C606AE400AB8B39 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

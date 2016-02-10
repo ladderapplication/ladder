@@ -19,11 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
        
         // Parse
         ParseCrashReporting.enable()
-        Parse.setApplicationId("Dnv2OtCwVxPfwUersBc6B7C5mzaPpaUyYnOaG2Hh", clientKey: "G7gtgV0jUEnlHRDCRSJwgik4QxtK7tdQhL0YOcFf")
+        Parse.setApplicationId("PtZqErbomwa1lklcZyPhbeV3uh4O43RoBqn2qmXb", clientKey: "KLROlWePJDL4ExAW79z9yIiqoXQRH0j3XoeyHlzv")
         PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
         
         return true
     }
 
 }
-
